@@ -1,24 +1,26 @@
-.. include:: /Includes.rst.txt
+Core: Exception handler (WEB): Uncaught TYPO3 Exception: #1314354065: Could not find row with UID "22447" in table "sys_file_processedfile" | RuntimeException thrown in file /customer/customerID/webpages/typo3_9.5.14/typo3_src-9.5.31/typo3/sysext/core/Classes/Resource/AbstractRepository.php in line 208. Requested URL: https://domain.tld/index.php?eID=dumpFile&t=p&p=22447&token=--AnonymizedToken-- 
 
 ==========================
 TYPO3 Exception 1314354065
 ==========================
 
-.. include:: /If-you-encounter-this-exception.rst.txt
-
+Encounter this daily in BE> log
+   This did not happen before. Only after creating in BE a new page where I included a picture which was actually not accessible. 
+   DB updated, cache cleared, File Abstraction Layer updated and metadata updated, cleanup, etc. 
 
 ..
-   [TYPO3 version] - [Date of solution]
+   [TYPO3 version 9.5] - [Date of solution]
    ====================================
 
    Situation
    ---------
 
-   Describe everything to understand the situation: Systems, environment, versions.
-   What happened?
+   This did not happen before. Only after creating in BE a new page where I included a picture which was actually not accessible. 
+   DB updated, cache cleared, File Abstraction Layer updated and metadata updated, cleanup, etc. 
+   no solution found
 
    Solution
    --------
 
-   1. Did you find a solution?
+   1. Did you find a solution? - no solution found
    2. Explain what you did ..
